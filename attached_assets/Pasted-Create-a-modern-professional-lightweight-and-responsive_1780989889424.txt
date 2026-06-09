@@ -1,0 +1,105 @@
+Create a modern, professional, lightweight, and responsive website for a Technology Training Services company.
+
+Website Requirements:
+
+Clean and professional design
+Fast loading and lightweight graphics
+Mobile-friendly and fully responsive
+Easy navigation and user-friendly interface
+Built using clean HTML, CSS, and JavaScript
+Easy to edit, maintain, and deploy
+SEO-friendly structure
+Professional blue and white color scheme
+Modern technology-themed visuals and icons
+
+Navigation Menu:
+
+Home
+Services
+Clientele
+About Us
+Photo Gallery
+Contact Us
+
+Home Page:
+
+Professional hero section with headline:
+"Empowering Professionals Through Technology Training"
+Short company introduction
+Call-to-action buttons:
+Explore Services
+Contact Us
+Technology-themed banner image
+Key highlights section showing:
+Expert Trainers
+Industry-Relevant Curriculum
+Corporate Training
+Hands-on Learning
+
+Services Page:
+Display services in professional cards:
+
+Artificial Intelligence Training
+Cloud Computing Training
+Data Analytics Training
+Cybersecurity Training
+Software Development Training
+Corporate Technology Workshops
+
+Clientele Page:
+
+Showcase client logos
+Testimonials section
+Success stories
+Corporate partnerships
+
+About Us Page:
+
+Company overview
+Mission and vision
+Trainer profiles
+Years of experience
+Certifications and achievements
+
+Photo Gallery Page:
+
+Responsive image gallery
+Training sessions
+Workshops
+Corporate events
+Classroom activities
+Lightbox image preview
+
+Contact Us Page:
+
+Contact form
+Name
+Email
+Phone Number
+Message
+Google Maps location placeholder
+Company address
+Phone number
+Email address
+Social media links
+
+Footer:
+
+Quick links
+Services links
+Contact information
+Copyright notice
+Social media icons
+
+Technical Requirements:
+
+Semantic HTML5
+Modern CSS with Flexbox/Grid
+Smooth scrolling navigation
+Hover animations
+Lightweight optimized images
+Accessible design
+Easy content management
+Production-ready code structure
+
+Generate complete website code with professional styling, modern layout, and clear section organization.
