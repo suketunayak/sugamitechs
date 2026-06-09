@@ -36,15 +36,26 @@ export default function Clientele() {
         </div>
       </section>
 
-      {/* Logos Grid (Placeholders) */}
+      {/* Client Logos Grid */}
       <section className="py-20 bg-background border-b">
         <div className="container mx-auto px-4 md:px-8">
-          <p className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-12">Our Corporate Partners</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 items-center opacity-60">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-              <div key={i} className="flex justify-center grayscale hover:grayscale-0 transition-all duration-300">
-                <Building2 className="h-16 w-16 text-muted-foreground" />
-                <span className="sr-only">Partner {i}</span>
+          <p className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-12">Our Corporate Partners &amp; Clients</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {[
+              "/clients-1.jpg",
+              "/clients-2.jpg",
+              "/clients-3.jpg",
+              "/clients-4.jpg",
+            ].map((src, i) => (
+              <div
+                key={i}
+                className="rounded-2xl border bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 p-4 flex items-center justify-center"
+              >
+                <img
+                  src={src}
+                  alt={`Client logos set ${i + 1}`}
+                  className="w-full h-auto object-contain"
+                />
               </div>
             ))}
           </div>
