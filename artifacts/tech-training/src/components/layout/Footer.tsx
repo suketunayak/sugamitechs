@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <Link href="/" className="flex items-center">
-              <img src="/sugami-logo.png" alt="SUGAMI Cloud and AI Technologies" className="h-12 w-auto brightness-0 invert" />
+              <img src="/sugami-logo.png" alt="SUGAMI Cloud and AI Technologies" className="h-14 w-auto bg-white rounded-xl px-3 py-1" />
             </Link>
             <p className="text-sm text-secondary-foreground/70 leading-relaxed max-w-xs">
               SUGAMI Cloud and AI Technologies — Empowering Professionals Through Technology Training.
