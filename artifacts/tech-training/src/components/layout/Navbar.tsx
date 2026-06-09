@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Cloud } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Navbar() {
@@ -21,9 +21,8 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Link href="/" className="flex items-center gap-2">
-              <Cloud className="h-6 w-6 text-primary" />
-              <span className="text-lg font-bold tracking-tight text-secondary">SUGAMI <span className="text-primary">Cloud & AI</span></span>
+            <Link href="/" className="flex items-center">
+              <img src="/sugami-logo.png" alt="SUGAMI Cloud and AI Technologies" className="h-10 w-auto" />
             </Link>
           </div>
 

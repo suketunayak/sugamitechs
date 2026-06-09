@@ -8,10 +8,10 @@ const stats = [
 ];
 
 const team = [
+  { name: "Suketu Nayak", role: "Founder & CEO", exp: "SUGAMI Cloud and AI Technologies" },
   { name: "Dr. James Wilson", role: "Head of AI Training", exp: "Ex-Google Research" },
   { name: "Sarah O'Connor", role: "Lead Cloud Architect", exp: "AWS Certified Solutions Architect" },
   { name: "Marcus Chen", role: "Cybersecurity Director", exp: "CISSP, Former DoD Consultant" },
-  { name: "Priya Patel", role: "VP of Engineering Training", exp: "15 yrs Full-Stack Dev" }
 ];
 
 export default function About() {

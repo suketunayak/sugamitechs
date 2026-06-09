@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Cloud, Mail, Phone, MapPin, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -7,9 +7,8 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12 md:py-16 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <Link href="/" className="flex items-center gap-2">
-              <Cloud className="h-6 w-6 text-primary" />
-              <span className="text-lg font-bold tracking-tight">SUGAMI <span className="text-primary">Cloud & AI</span></span>
+            <Link href="/" className="flex items-center">
+              <img src="/sugami-logo.png" alt="SUGAMI Cloud and AI Technologies" className="h-12 w-auto brightness-0 invert" />
             </Link>
             <p className="text-sm text-secondary-foreground/70 leading-relaxed max-w-xs">
               SUGAMI Cloud and AI Technologies — Empowering Professionals Through Technology Training.
