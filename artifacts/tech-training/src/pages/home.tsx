@@ -1,7 +1,16 @@
 import React from "react";
 import { Link } from "wouter";
-import { ArrowRight, CheckCircle2, Award, Users, BookOpen, Laptop } from "lucide-react";
+import { ArrowRight, CheckCircle2, Award, Users, BookOpen, Laptop, BadgeCheck, Star, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
+const credentialBadges = [
+  "Microsoft Certified Trainer (MCT)",
+  "Top 100 Quality MCT — out of 22,000 Globally",
+  "Microsoft MVP — Azure (2016)",
+  "Azure Master",
+  "Alibaba Cloud MVP",
+  "AI Certs Certified Trainer",
+];
 
 export default function Home() {
   return (
@@ -10,7 +19,6 @@ export default function Home() {
       <section className="relative bg-secondary text-secondary-foreground overflow-hidden py-24 md:py-32">
         <div className="absolute inset-0 z-0 opacity-20">
           <div className="absolute inset-0 bg-gradient-to-r from-secondary to-transparent z-10" />
-          {/* Placeholder for hero image - ideally replaced with actual generated image later */}
           <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center" />
         </div>
         <div className="container mx-auto px-4 md:px-8 relative z-10">
@@ -19,7 +27,7 @@ export default function Home() {
               Empowering Professionals Through Technology Training
             </h1>
             <p className="text-lg md:text-xl text-secondary-foreground/80 max-w-2xl leading-relaxed">
-              We deliver cutting-edge technology education tailored for the modern enterprise. From AI and Cloud to Cybersecurity, we bridge the skills gap with elite, hands-on learning.
+              Led by a Microsoft MVP, Azure Master &amp; globally recognised Top 100 MCT — we deliver expert Azure, AI, Copilot, and Data training to enterprises across the USA, India, UK, and beyond.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link href="/services">
@@ -37,15 +45,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Credential Badges Strip */}
+      <section className="py-6 bg-primary text-primary-foreground">
+        <div className="container mx-auto px-4 md:px-8">
+          <div className="flex flex-wrap justify-center gap-3">
+            {credentialBadges.map((badge, i) => (
+              <span key={i} className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-primary-foreground/10 text-sm font-medium border border-primary-foreground/20">
+                <BadgeCheck className="h-3.5 w-3.5 shrink-0" />
+                {badge}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Highlights Section */}
       <section className="py-16 bg-background border-b">
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: Users, title: "Expert Trainers", desc: "Learn from industry veterans and certified practitioners." },
-              { icon: BookOpen, title: "Industry-Relevant Curriculum", desc: "Syllabuses continuously updated to match market demands." },
-              { icon: Award, title: "Corporate Training", desc: "Customized upskilling programs for enterprise teams." },
-              { icon: Laptop, title: "Hands-on Learning", desc: "Project-based methodology with real-world applications." }
+              { icon: Users, title: "Expert Trainers", desc: "Microsoft MVP, Azure Master, Top 100 MCT — learn from the world's best." },
+              { icon: BookOpen, title: "Official Microsoft Curriculum", desc: "Authorised delivery of Microsoft ESI, DW, AZ, AI and DP course series." },
+              { icon: Award, title: "Corporate Training", desc: "Customised upskilling delivered to Boeing, Goldman Sachs, Deloitte, and 60+ more." },
+              { icon: Laptop, title: "Hands-on Learning", desc: "Every session is practical, lab-driven, and immediately applicable on the job." }
             ].map((item, i) => (
               <div key={i} className="flex flex-col items-center text-center p-6 rounded-2xl bg-muted/50 transition-transform hover:-translate-y-1">
                 <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-4">
@@ -59,39 +81,50 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Brief Intro */}
+      {/* About the Founder */}
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="lg:w-1/2 space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-secondary">The Definitive Partner for Enterprise Upskilling</h2>
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold">
+                <Star className="h-4 w-4" /> Meet the Founder
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-secondary">Suketu Nayak — Founder & CEO</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Technology evolves rapidly. Ensuring your team stays ahead of the curve requires more than generic video courses. It requires rigorous, expert-led training designed for practical application.
+                With over <strong>20 years of experience</strong>, Suketu is a <strong>Microsoft Certified Trainer</strong> awarded as one of the <strong>Top 100 Quality MCTs globally</strong> (out of 22,000). He is a <strong>Microsoft MVP for Azure (2016)</strong>, <strong>Azure Master</strong>, and <strong>Alibaba Cloud MVP</strong>.
               </p>
-              <ul className="space-y-4 pt-4">
+              <ul className="space-y-4">
                 {[
-                  "Tailored learning paths for different roles",
-                  "Flexible delivery: on-site, virtual, or hybrid",
-                  "Post-training support and certification preparation",
-                  "Measurable ROI on your training investment"
+                  "400+ sessions delivered to 60+ global enterprise clients",
+                  "Authorised trainer for Microsoft ESI, Opsgility USA, and AI Certs",
+                  "Delivered to Boeing, Goldman Sachs, Deloitte, PepsiCo, Cisco, and more",
+                  "BE (IT) + M.Tech (CSE) — 20+ years industry experience"
                 ].map((point, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary shrink-0" />
+                    <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-0.5" />
                     <span className="text-foreground">{point}</span>
                   </li>
                 ))}
               </ul>
-              <div className="pt-6">
+              <div className="flex flex-wrap gap-3 pt-2">
                 <Link href="/about">
                   <Button variant="outline" className="group">
-                    Learn More About Us <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    Full Profile <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Button>
                 </Link>
+                <a
+                  href="https://www.credly.com/users/suketu-nayak/badges"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" className="text-primary hover:text-primary gap-2">
+                    <BadgeCheck className="h-4 w-4" /> View Credentials <ExternalLink className="h-3 w-3" />
+                  </Button>
+                </a>
               </div>
             </div>
             <div className="lg:w-1/2 w-full">
               <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl relative">
-                {/* Placeholder for about image */}
                 <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center" />
               </div>
             </div>
