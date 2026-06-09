@@ -77,7 +77,14 @@ export default function About() {
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold">
                 <Star className="h-4 w-4" /> Founder & CEO
               </div>
-              <h2 className="text-3xl md:text-4xl font-extrabold text-secondary">Suketu Nayak</h2>
+              <div className="flex items-center gap-5">
+                <img
+                  src="/suketu-nayak.png"
+                  alt="Suketu Nayak"
+                  className="h-24 w-24 rounded-2xl object-cover shadow-md border border-border shrink-0"
+                />
+                <h2 className="text-3xl md:text-4xl font-extrabold text-secondary">Suketu Nayak</h2>
+              </div>
               <p className="text-base text-muted-foreground leading-relaxed">
                 Suketu Nayak is the Founder & CEO of SUGAMI Cloud and AI Technologies. With over 20 years of experience, he is a globally recognised <strong>Microsoft Certified Trainer</strong>, honoured as one of the <strong>Top 100 Quality MCTs out of 22,000 trainers worldwide</strong> by Microsoft.
               </p>
@@ -108,7 +115,7 @@ export default function About() {
             </div>
 
             {/* Technical Skills */}
-            <div className="bg-muted/40 rounded-2xl border p-8">
+            <div className="bg-muted/40 rounded-2xl border p-8 flex flex-col gap-6">
               <h3 className="text-xl font-bold text-secondary mb-6">Core Technical Expertise</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {technicalSkills.map((skill, i) => (

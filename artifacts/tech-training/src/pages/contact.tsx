@@ -15,66 +15,75 @@ export default function Contact() {
 
       <section className="py-20 bg-background flex-grow">
         <div className="container mx-auto px-4 md:px-8">
-          <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold text-secondary mb-10">Get in Touch</h2>
-            <div className="space-y-8">
+          <div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
-              <div className="flex items-start gap-5">
-                <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
-                  <MapPin className="h-7 w-7" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-xl mb-2">Headquarters</h3>
-                  <p className="text-muted-foreground leading-relaxed text-base">
-                    B2/24 Orchid Heights,<br />
-                    Applewood Township, SP Ring Road,<br />
-                    Ahmedabad, Gujarat 380058<br />
-                    INDIA
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-5">
-                <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
-                  <Phone className="h-7 w-7" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-xl mb-2">Phone</h3>
-                  <a
-                    href="tel:+919925552595"
-                    className="text-primary font-medium text-base hover:underline"
-                  >
-                    +91 992 555 2595
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-5">
-                <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
-                  <Mail className="h-7 w-7" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-xl mb-2">Email</h3>
-                  <a
-                    href="mailto:suketunayak@gmail.com"
-                    className="text-primary font-medium text-base hover:underline"
-                  >
-                    suketunayak@gmail.com
-                  </a>
-                </div>
-              </div>
-
-            </div>
-
-            {/* Map Placeholder */}
-            <div className="mt-14 aspect-video bg-muted rounded-2xl border overflow-hidden relative flex items-center justify-center">
-              <div className="absolute inset-0 bg-primary/5 mix-blend-multiply" />
-              <div className="text-center text-muted-foreground">
-                <MapPin className="h-8 w-8 mx-auto mb-2 opacity-50" />
-                <p className="font-medium">Ahmedabad, Gujarat, India</p>
-                <p className="text-sm mt-1 opacity-70">SP Ring Road, 380058</p>
+            {/* Photo + intro */}
+            <div className="flex flex-col items-center lg:items-start gap-6 text-center lg:text-left">
+              <img
+                src="/suketu-nayak.png"
+                alt="Suketu Nayak"
+                className="w-72 h-80 object-cover rounded-2xl shadow-xl border border-border"
+              />
+              <div>
+                <h3 className="text-2xl font-extrabold text-secondary">Suketu Nayak</h3>
+                <p className="text-primary font-semibold">Founder & CEO</p>
+                <p className="text-sm text-muted-foreground mt-1">SUGAMI Cloud and AI Technologies</p>
               </div>
             </div>
+
+            {/* Contact details */}
+            <div>
+              <h2 className="text-3xl font-bold text-secondary mb-10">Get in Touch</h2>
+              <div className="space-y-8">
+
+                <div className="flex items-start gap-5">
+                  <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                    <MapPin className="h-7 w-7" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-xl mb-2">Headquarters</h3>
+                    <p className="text-muted-foreground leading-relaxed text-base">
+                      B2/24 Orchid Heights,<br />
+                      Applewood Township, SP Ring Road,<br />
+                      Ahmedabad, Gujarat 380058<br />
+                      INDIA
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                    <Phone className="h-7 w-7" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-xl mb-2">Phone</h3>
+                    <a
+                      href="tel:+919925552595"
+                      className="text-primary font-medium text-base hover:underline"
+                    >
+                      +91 992 555 2595
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                    <Mail className="h-7 w-7" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-xl mb-2">Email</h3>
+                    <a
+                      href="mailto:suketunayak@gmail.com"
+                      className="text-primary font-medium text-base hover:underline"
+                    >
+                      suketunayak@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
