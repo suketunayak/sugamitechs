@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Cloud, Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import { Cloud, Mail, Phone, MapPin, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -15,14 +15,8 @@ export function Footer() {
               SUGAMI Cloud and AI Technologies — Empowering Professionals Through Technology Training.
             </p>
             <div className="flex gap-4 pt-2">
-              <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/suketu-nayak-604850122/" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/60 hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
-                <Github className="h-5 w-5" />
               </a>
             </div>
           </div>
