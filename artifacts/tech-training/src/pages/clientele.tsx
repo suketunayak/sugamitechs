@@ -4,7 +4,7 @@ import { Link } from "wouter";
 
 const testimonials = [
   {
-    quote: "TechTrainPro fundamentally transformed our engineering department. The AWS training was intense, practical, and exactly what we needed to migrate our legacy systems.",
+    quote: "SUGAMI Cloud and AI Technologies fundamentally transformed our engineering department. The AWS training was intense, practical, and exactly what we needed to migrate our legacy systems.",
     author: "Sarah Jenkins",
     role: "VP of Engineering, GlobalFin",
     company: "GlobalFin Inc."

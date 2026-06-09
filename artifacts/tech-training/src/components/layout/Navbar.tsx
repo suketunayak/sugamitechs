@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Monitor, ChevronRight } from "lucide-react";
+import { Menu, X, Cloud } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Navbar() {
@@ -22,8 +22,8 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
-              <Monitor className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold tracking-tight text-secondary">TechTrain<span className="text-primary">Pro</span></span>
+              <Cloud className="h-6 w-6 text-primary" />
+              <span className="text-lg font-bold tracking-tight text-secondary">SUGAMI <span className="text-primary">Cloud & AI</span></span>
             </Link>
           </div>
 

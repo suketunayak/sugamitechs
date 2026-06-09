@@ -20,7 +20,7 @@ export default function About() {
       {/* Header */}
       <section className="bg-secondary text-secondary-foreground py-20 px-4 md:px-8">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">About TechTrainPro</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">About SUGAMI Cloud and AI Technologies</h1>
           <p className="text-lg md:text-xl text-secondary-foreground/80 leading-relaxed">
             We are technologists teaching technologists. Our mission is to close the global skills gap by providing rigorous, practical, and cutting-edge education.
           </p>

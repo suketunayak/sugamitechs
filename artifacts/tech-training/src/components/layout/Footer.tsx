@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Monitor, Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import { Cloud, Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
 
 export function Footer() {
   return (
@@ -8,11 +8,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <Monitor className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold tracking-tight">TechTrain<span className="text-primary">Pro</span></span>
+              <Cloud className="h-6 w-6 text-primary" />
+              <span className="text-lg font-bold tracking-tight">SUGAMI <span className="text-primary">Cloud & AI</span></span>
             </Link>
             <p className="text-sm text-secondary-foreground/70 leading-relaxed max-w-xs">
-              Empowering Professionals Through Technology Training. We bridge the skills gap for modern enterprises.
+              SUGAMI Cloud and AI Technologies — Empowering Professionals Through Technology Training.
             </p>
             <div className="flex gap-4 pt-2">
               <a href="#" className="text-secondary-foreground/60 hover:text-primary transition-colors">
@@ -53,22 +53,22 @@ export function Footer() {
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-secondary-foreground/70">
-                <MapPin className="h-5 w-5 text-primary shrink-0" />
-                <span>100 Innovation Drive,<br />Tech District, CA 94105</span>
+                <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>B2/24 Orchid Heights,<br />Applewood Township, SP Ring Road,<br />Ahmedabad, Gujarat 380058, INDIA</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-secondary-foreground/70">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
-                <span>+1 (800) 555-0199</span>
+                <span>+91 992 555 2595</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-secondary-foreground/70">
                 <Mail className="h-5 w-5 text-primary shrink-0" />
-                <span>contact@techtrainpro.com</span>
+                <span>suketunayak@gmail.com</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-secondary-foreground/10 text-center text-sm text-secondary-foreground/50">
-          <p>&copy; {new Date().getFullYear()} TechTrainPro. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SUGAMI Cloud and AI Technologies. All rights reserved.</p>
         </div>
       </div>
     </footer>
