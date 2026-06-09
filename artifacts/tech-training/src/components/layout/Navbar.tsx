@@ -21,8 +21,12 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center gap-3">
               <img src="/sugami-logo.png" alt="SUGAMI Cloud and AI Technologies" className="h-12 w-auto" />
+              <div className="flex flex-col leading-tight">
+                <span className="text-base font-extrabold tracking-tight text-secondary">SUGAMI</span>
+                <span className="text-xs font-medium text-muted-foreground">Cloud and AI Technologies</span>
+              </div>
             </Link>
           </div>
 
