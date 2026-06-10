@@ -4,22 +4,52 @@ import { Link } from "wouter";
 
 const testimonials = [
   {
-    quote: "SUGAMI Cloud and AI Technologies fundamentally transformed our engineering department. The AWS training was intense, practical, and exactly what we needed to migrate our legacy systems.",
-    author: "Sarah Jenkins",
-    role: "VP of Engineering, GlobalFin",
-    company: "GlobalFin Inc."
+    quote: "I worked with Suketu Nayak at Opsgility for a little over a year on multiple projects. He was our top go-to trainer in India as he could teach Azure in our custom Developer, IaaS and Big Data content to perfection! He consistently would hit our top tier in survey results and was the most dependable trainer we worked with. Many clients would request him after their initial class due to his vast real world knowledge of Azure. He was always gracious and a pleasure to work with.",
+    author: "Lindsey Morris-Smith",
+    role: "Program Manager, Customer Service & Support",
+    company: "Microsoft Corporation"
   },
   {
-    quote: "We brought them in for a week-long cybersecurity workshop for our C-suite. The level of expertise and authority the instructors commanded was truly exceptional.",
-    author: "David Chen",
-    role: "CISO",
-    company: "Nexus Health"
+    quote: "Attended one of the Azure classroom trainings Suketu did for Adobe. Being a newbie to Azure, I found the training very helpful and insightful. The training content was pretty apt for beginners as well as for advanced audience. Training was done in a very flexible manner with ample scope of hands-on exercises and QnA. Based on audience's choice and interest area, the instructor was able to convert topics into really deep dive sessions.",
+    author: "Ashok Kumar",
+    role: "Computer Scientist",
+    company: "Adobe Systems India Pvt. Ltd."
   },
   {
-    quote: "The React and Microservices curriculum took our junior devs to mid-level in a matter of weeks. The ROI on this training engagement was immediate.",
-    author: "Elena Rodriguez",
-    role: "Director of Product",
-    company: "Streamline Tech"
+    quote: "The training was very inspirational, energizing, bringing lots of ideas, with both substantial and in-depth knowledge together with case studies. Learning from experience and being fully practice-oriented. Well-balanced composition of participants, which contributed to interesting and focused discussions and exchanges.",
+    author: "Manoj Barot",
+    role: "Infrastructure Architect, Cloud Migration Factory",
+    company: "IBM Bangalore"
+  },
+  {
+    quote: "It was an excellent training on MS Azure - 70-533. The theory as well as the practicals were explained so well. The delivery of the entire training programme was extremely smooth and you left no question unanswered. I would like to take more training from you in the future as well as I strongly recommend you for any organization that needs a subject matter expert on MS Azure.",
+    author: "Subhankar Patnaik",
+    role: "Discovery Architect, Cloud Migration Factory",
+    company: "IBM"
+  },
+  {
+    quote: "The whole training from start to finish was superb and as a result of which I am Azure certified today. Suketu is a fantastic and knowledgeable trainer. His experience provided me a direct understanding of current situation and future goals. The course was well structured, right time frame, well organized and hands-on training was without doubt the best part. Thank you Suketu for the wonderful training.",
+    author: "Rahul Gupta",
+    role: "Lead Incident Commander",
+    company: "Symantec Corporation, Pune"
+  },
+  {
+    quote: "The training sessions conducted by you were awesome. I found the sessions to be really fruitful due to some great mix of theoretical and practical aspects supplemented by tutorials. Your knowledge/expertise helped gain insights into Azure and its functioning in great detail. You have been really professional in conducting these sessions — the energy and commitment you showed is exemplary.",
+    author: "Yogesh Gaikwad",
+    role: "Head of Engineering & Delivery",
+    company: "British Telecom (BT), Bangalore"
+  },
+  {
+    quote: "Just wanted to thank you for a wonderful Azure training. I have thoroughly enjoyed it and have gained confidence and knowledge on Azure from your classes. It was very well explained and I really appreciate your way of teaching and the way of explaining difficult things in a funny way. Thank you ever so much.",
+    author: "Pawan Kumar",
+    role: "Consultant",
+    company: "Deloitte"
+  },
+  {
+    quote: "I would like to personally thank you on the Azure Training Program conducted in Bangalore. The training material covered a wide variety of topics on Azure that were very useful. Stand out for me was the machine learning content explanation and different real time scenarios explained by you. Thanks for accommodating the Databricks content within short time. Definitely will keep coming back to you on Azure platform questions in future.",
+    author: "Venkat Gani",
+    role: "Senior Manager | Insights & Data | Big Data Architect",
+    company: "Capgemini India, Hyderabad"
   }
 ];
 
@@ -66,7 +96,7 @@ export default function Clientele() {
       <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-secondary">What Our Clients Say</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {testimonials.map((testimonial, i) => (
               <div key={i} className="bg-card p-8 rounded-2xl border shadow-sm relative">
                 <Quote className="h-10 w-10 text-primary/20 absolute top-6 right-6" />
