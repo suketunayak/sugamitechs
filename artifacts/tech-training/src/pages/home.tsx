@@ -23,8 +23,8 @@ export default function Home() {
         </div>
         <div className="container mx-auto px-4 md:px-8 relative z-10">
           <div className="max-w-3xl space-y-6">
-            <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Empowering Professionals Through Technology Training & Consulting</h1>
-            <p className="text-lg md:text-xl text-secondary-foreground/80 max-w-2xl leading-relaxed">Led by a Microsoft Certified Trainer, Microsoft MVPr, Azure Master, Copilot Proficient, AI Engineer & globally recognised Top 100 MCT — we deliver expert Azure, AI, Copilot, and Data training to enterprises across the USA, India, UK, and beyond.</p>
+            <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Empowering Professionals Through Technology Training</h1>
+            <p className="text-lg md:text-xl text-secondary-foreground/80 max-w-2xl leading-relaxed">Led by a Microsoft Certified Trainer, Microsoft MVP, Azure Master, Copilot Proficient &amp; globally recognised Top 100 MCT — we deliver expert Azure, AI, Copilot, and Data training to large enterprises across the USA, India, UK, Europe and beyond.</p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link href="/services">
                 <Button size="lg" className="w-full sm:w-auto text-base">
