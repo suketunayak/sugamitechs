@@ -22,7 +22,7 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-3">
-              <img src="/sugami-logo.png" alt="SUGAMI Cloud and AI Technologies" className="h-12 w-auto" />
+              <img src="/sugami-logo2.png" alt="SUGAMI Cloud and AI Technologies" className="h-14 w-auto" />
               <div className="flex flex-col leading-tight">
                 <span className="text-base font-extrabold tracking-tight text-secondary">SUGAMI</span>
                 <span className="text-xs font-medium text-muted-foreground">Cloud and AI Technologies</span>

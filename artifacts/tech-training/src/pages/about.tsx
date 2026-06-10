@@ -2,14 +2,14 @@ import { Target, Compass, Award, ExternalLink, BadgeCheck, Star } from "lucide-r
 
 const stats = [
   { value: "20+", label: "Years Experience" },
-  { value: "400+", label: "Sessions Delivered" },
+  { value: "3000+", label: "Sessions Delivered" },
   { value: "60+", label: "Enterprise Clients" },
   { value: "Top 100", label: "Quality MCT Globally" }
 ];
 
 const certifications = [
   { title: "Microsoft Certified Trainer (MCT)", badge: "Top 100 Quality MCT out of 22,000 Globally" },
-  { title: "Microsoft MVP — Azure", badge: "Awarded 2016" },
+  { title: "Microsoft MVPr — Azure", badge: "Awarded 2016" },
   { title: "Azure Master", badge: "Awarded by Microsoft" },
   { title: "Alibaba Cloud MVP", badge: "Alibaba Cloud China" },
   { title: "AI Certs Certified Trainer", badge: "AI+ Executive" },
@@ -50,7 +50,7 @@ export default function About() {
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">About SUGAMI Cloud and AI Technologies</h1>
           <p className="text-lg md:text-xl text-secondary-foreground/80 leading-relaxed">
-            Founded by a Microsoft MVP, Azure Master, and globally recognised Top 100 MCT — we bring elite, certified technology training to enterprises worldwide.
+            Founded by a Microsoft MVPr (2016), Azure Master, and globally recognised Top 100 MCT — we bring elite, certified technology training to enterprises worldwide.
           </p>
         </div>
       </section>
@@ -89,7 +89,7 @@ export default function About() {
                 Suketu Nayak is the Founder & CEO of SUGAMI Cloud and AI Technologies. With over 20 years of experience, he is a globally recognised <strong>Microsoft Certified Trainer</strong>, honoured as one of the <strong>Top 100 Quality MCTs out of 22,000 trainers worldwide</strong> by Microsoft.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed">
-                A <strong>Microsoft MVP for Azure (2016)</strong> and <strong>Azure Master</strong>, Suketu has delivered hundreds of sessions to Fortune 500 enterprises across the USA, India, UK, Europe, and the Middle East — including Boeing, Goldman Sachs, Deloitte, PepsiCo, CISCO, Wipro, Accenture, and many more.
+                A <strong>Microsoft MVPr (2016)</strong> and <strong>Azure Master</strong>, Suketu has delivered 3000+ sessions to Fortune 500 enterprises across the USA, India, UK, Europe, and the Middle East — including Boeing, Goldman Sachs, Deloitte, PepsiCo, CISCO, Wipro, Accenture, and many more.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed">
                 He is also an <strong>Alibaba Cloud MVP</strong> and an <strong>AI Certs Certified Trainer</strong>, specialising in Azure AI, Generative AI, Microsoft Copilot, GitHub Copilot, Microsoft Fabric, and enterprise cloud security.

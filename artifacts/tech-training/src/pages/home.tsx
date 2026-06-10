@@ -24,7 +24,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-8 relative z-10">
           <div className="max-w-3xl space-y-6">
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Empowering Professionals Through Technology Training</h1>
-            <p className="text-lg md:text-xl text-secondary-foreground/80 max-w-2xl leading-relaxed">Led by a Microsoft Certified Trainer, Microsoft MVP, Azure Master, Copilot Proficient &amp; globally recognised Top 100 MCT — we deliver expert Azure, AI, Copilot, and Data training to large enterprises across the USA, India, UK, Europe and beyond.</p>
+            <p className="text-lg md:text-xl text-secondary-foreground/80 max-w-2xl leading-relaxed">Led by a Microsoft Certified Trainer, Microsoft MVPr (2016), Azure Master, Copilot Proficient &amp; globally recognised Top 100 MCT — we deliver expert Azure, AI, Copilot, and Data training to large enterprises across the USA, India, UK, Europe and beyond.</p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link href="/services">
                 <Button size="lg" className="w-full sm:w-auto text-base">
@@ -84,11 +84,11 @@ export default function Home() {
               </div>
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-secondary">Suketu Nayak — Founder & CEO</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                With over <strong>20 years of experience</strong>, Suketu is a <strong>Microsoft Certified Trainer</strong> awarded as one of the <strong>Top 100 Quality MCTs globally</strong> (out of 22,000). He is a <strong>Microsoft MVP for Azure (2016)</strong>, <strong>Azure Master</strong>, and <strong>Alibaba Cloud MVP</strong>.
+                With over <strong>20 years of experience</strong>, Suketu is a <strong>Microsoft Certified Trainer</strong> awarded as one of the <strong>Top 100 Quality MCTs globally</strong> (out of 22,000). He is a <strong>Microsoft MVPr (2016)</strong>, <strong>Azure Master</strong>, and <strong>Alibaba Cloud MVP</strong>.
               </p>
               <ul className="space-y-4">
                 {[
-                  "400+ sessions delivered to 60+ global enterprise clients",
+                  "3000+ sessions delivered to 60+ global enterprise clients",
                   "Authorised trainer for Microsoft ESI, Opsgility USA, and AI Certs",
                   "Delivered to Boeing, Goldman Sachs, Deloitte, PepsiCo, Cisco, and more",
                   "BE (IT) + M.Tech (CSE) — 20+ years industry experience"
@@ -112,6 +112,15 @@ export default function Home() {
                 >
                   <Button variant="ghost" className="text-primary hover:text-primary gap-2">
                     <BadgeCheck className="h-4 w-4" /> View Credentials <ExternalLink className="h-3 w-3" />
+                  </Button>
+                </a>
+                <a
+                  href="https://learn.microsoft.com/en-us/users/suketunayak4683/transcript/7kn4mhj94glqgp6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" className="text-primary hover:text-primary gap-2">
+                    <ExternalLink className="h-4 w-4" /> Microsoft Transcript
                   </Button>
                 </a>
               </div>
